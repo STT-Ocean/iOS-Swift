@@ -12,14 +12,37 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+//        arrayFunction()
+        
+//        testForModel()
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func testForModel(){
+        
+        let dict = ["age":10,
+                    "name":"开心",
+                    "time":"10983"] as [String : Any]
+        // 数据解析
+        
     }
-
+    
+    
+    func arrayFunction()  {
+        var array = [[["haha":"Oeioie","name":"ages"],
+                     ["haha":"Oeioie","name":"ages"],
+                     ["haha":"Oeioie","name":"ages"]],
+                     [["haha":"Oeioie","name":"ages"],
+                      ["haha":"Oeioie","name":"ages"],
+                      ["haha":"Oeioie","name":"ages"]]]
+        
+        let myfirst = array[0]
+        ALog(message: "\(array) + \(array.count) + \(myfirst) + \(myfirst.count)")
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        
+    }
 
 }
 

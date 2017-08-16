@@ -44,3 +44,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+
+func ALog<T>(message:T,fileName:String = #file,methodName:String = #function,lineNumber:Int = #line) {
+    #if DEBUG
+        print("\(methodName)[\(lineNumber)]:\(message)")
+    #endif
+}
+
+
