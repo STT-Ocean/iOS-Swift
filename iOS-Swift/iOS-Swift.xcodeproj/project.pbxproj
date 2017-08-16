@@ -16,6 +16,32 @@
 		B04663BC1EE92FA90075BCB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B04663BA1EE92FA90075BCB6 /* LaunchScreen.storyboard */; };
 		B04663C71EE92FA90075BCB6 /* iOS_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04663C61EE92FA90075BCB6 /* iOS_SwiftTests.swift */; };
 		B04663D21EE92FA90075BCB6 /* iOS_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04663D11EE92FA90075BCB6 /* iOS_SwiftUITests.swift */; };
+		B0A9E34E1F441C8500460B56 /* AnyExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A9E32F1F441C8500460B56 /* AnyExtensions.swift */; };
+		B0A9E34F1F441C8500460B56 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A9E3301F441C8500460B56 /* Configuration.swift */; };
+		B0A9E3501F441C8500460B56 /* CustomDateFormatTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A9E3311F441C8500460B56 /* CustomDateFormatTransform.swift */; };
+		B0A9E3511F441C8500460B56 /* DataTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A9E3321F441C8500460B56 /* DataTransform.swift */; };
+		B0A9E3521F441C8500460B56 /* DateFormatterTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A9E3331F441C8500460B56 /* DateFormatterTransform.swift */; };
+		B0A9E3531F441C8500460B56 /* DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A9E3341F441C8500460B56 /* DateTransform.swift */; };
+		B0A9E3541F441C8500460B56 /* Deserializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A9E3351F441C8500460B56 /* Deserializer.swift */; };
+		B0A9E3551F441C8500460B56 /* EnumTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A9E3361F441C8500460B56 /* EnumTransform.swift */; };
+		B0A9E3561F441C8500460B56 /* HelpingMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A9E3381F441C8500460B56 /* HelpingMapper.swift */; };
+		B0A9E3571F441C8500460B56 /* HexColorTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A9E3391F441C8500460B56 /* HexColorTransform.swift */; };
+		B0A9E35C1F441C8500460B56 /* ISO8601DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A9E33E1F441C8500460B56 /* ISO8601DateTransform.swift */; };
+		B0A9E35D1F441C8500460B56 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B0A9E33F1F441C8500460B56 /* LICENSE */; };
+		B0A9E35E1F441C8500460B56 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A9E3401F441C8500460B56 /* Logger.swift */; };
+		B0A9E35F1F441C8500460B56 /* Metadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A9E3411F441C8500460B56 /* Metadata.swift */; };
+		B0A9E3601F441C8500460B56 /* NominalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A9E3421F441C8500460B56 /* NominalType.swift */; };
+		B0A9E3611F441C8500460B56 /* NSDecimalNumberTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A9E3431F441C8500460B56 /* NSDecimalNumberTransform.swift */; };
+		B0A9E3621F441C8500460B56 /* OtherExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A9E3441F441C8500460B56 /* OtherExtension.swift */; };
+		B0A9E3631F441C8500460B56 /* PointerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A9E3451F441C8500460B56 /* PointerType.swift */; };
+		B0A9E3641F441C8500460B56 /* Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A9E3461F441C8500460B56 /* Properties.swift */; };
+		B0A9E3651F441C8500460B56 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A9E3471F441C8500460B56 /* Protocol.swift */; };
+		B0A9E3661F441C8500460B56 /* ReflectionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A9E3481F441C8500460B56 /* ReflectionHelper.swift */; };
+		B0A9E3671F441C8500460B56 /* Serializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A9E3491F441C8500460B56 /* Serializer.swift */; };
+		B0A9E3681F441C8500460B56 /* Serializer+Legacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A9E34A1F441C8500460B56 /* Serializer+Legacy.swift */; };
+		B0A9E3691F441C8500460B56 /* TransformOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A9E34B1F441C8500460B56 /* TransformOf.swift */; };
+		B0A9E36A1F441C8500460B56 /* TransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A9E34C1F441C8500460B56 /* TransformType.swift */; };
+		B0A9E36B1F441C8500460B56 /* URLTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A9E34D1F441C8500460B56 /* URLTransform.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +78,33 @@
 		B04663CD1EE92FA90075BCB6 /* iOS-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B04663D11EE92FA90075BCB6 /* iOS_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_SwiftUITests.swift; sourceTree = "<group>"; };
 		B04663D31EE92FA90075BCB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0A9E32F1F441C8500460B56 /* AnyExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyExtensions.swift; sourceTree = "<group>"; };
+		B0A9E3301F441C8500460B56 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		B0A9E3311F441C8500460B56 /* CustomDateFormatTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDateFormatTransform.swift; sourceTree = "<group>"; };
+		B0A9E3321F441C8500460B56 /* DataTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTransform.swift; sourceTree = "<group>"; };
+		B0A9E3331F441C8500460B56 /* DateFormatterTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatterTransform.swift; sourceTree = "<group>"; };
+		B0A9E3341F441C8500460B56 /* DateTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTransform.swift; sourceTree = "<group>"; };
+		B0A9E3351F441C8500460B56 /* Deserializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deserializer.swift; sourceTree = "<group>"; };
+		B0A9E3361F441C8500460B56 /* EnumTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumTransform.swift; sourceTree = "<group>"; };
+		B0A9E3371F441C8500460B56 /* HandyJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandyJSON.h; sourceTree = "<group>"; };
+		B0A9E3381F441C8500460B56 /* HelpingMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpingMapper.swift; sourceTree = "<group>"; };
+		B0A9E3391F441C8500460B56 /* HexColorTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexColorTransform.swift; sourceTree = "<group>"; };
+		B0A9E33E1F441C8500460B56 /* ISO8601DateTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISO8601DateTransform.swift; sourceTree = "<group>"; };
+		B0A9E33F1F441C8500460B56 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B0A9E3401F441C8500460B56 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		B0A9E3411F441C8500460B56 /* Metadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Metadata.swift; sourceTree = "<group>"; };
+		B0A9E3421F441C8500460B56 /* NominalType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NominalType.swift; sourceTree = "<group>"; };
+		B0A9E3431F441C8500460B56 /* NSDecimalNumberTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDecimalNumberTransform.swift; sourceTree = "<group>"; };
+		B0A9E3441F441C8500460B56 /* OtherExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherExtension.swift; sourceTree = "<group>"; };
+		B0A9E3451F441C8500460B56 /* PointerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointerType.swift; sourceTree = "<group>"; };
+		B0A9E3461F441C8500460B56 /* Properties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Properties.swift; sourceTree = "<group>"; };
+		B0A9E3471F441C8500460B56 /* Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		B0A9E3481F441C8500460B56 /* ReflectionHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReflectionHelper.swift; sourceTree = "<group>"; };
+		B0A9E3491F441C8500460B56 /* Serializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Serializer.swift; sourceTree = "<group>"; };
+		B0A9E34A1F441C8500460B56 /* Serializer+Legacy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Serializer+Legacy.swift"; sourceTree = "<group>"; };
+		B0A9E34B1F441C8500460B56 /* TransformOf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformOf.swift; sourceTree = "<group>"; };
+		B0A9E34C1F441C8500460B56 /* TransformType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformType.swift; sourceTree = "<group>"; };
+		B0A9E34D1F441C8500460B56 /* URLTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLTransform.swift; sourceTree = "<group>"; };
 		D6161B7A2EC8887ADE2B5D43 /* Pods_iOS_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -89,6 +142,55 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B01346A01F441B690050B225 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				B01346A11F441B690050B225 /* HandyJSON */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		B01346A11F441B690050B225 /* HandyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				B0A9E32F1F441C8500460B56 /* AnyExtensions.swift */,
+				B0A9E3301F441C8500460B56 /* Configuration.swift */,
+				B0A9E3311F441C8500460B56 /* CustomDateFormatTransform.swift */,
+				B0A9E3321F441C8500460B56 /* DataTransform.swift */,
+				B0A9E3331F441C8500460B56 /* DateFormatterTransform.swift */,
+				B0A9E3341F441C8500460B56 /* DateTransform.swift */,
+				B0A9E3351F441C8500460B56 /* Deserializer.swift */,
+				B0A9E3361F441C8500460B56 /* EnumTransform.swift */,
+				B0A9E3371F441C8500460B56 /* HandyJSON.h */,
+				B0A9E3381F441C8500460B56 /* HelpingMapper.swift */,
+				B0A9E3391F441C8500460B56 /* HexColorTransform.swift */,
+				B0A9E33E1F441C8500460B56 /* ISO8601DateTransform.swift */,
+				B0A9E33F1F441C8500460B56 /* LICENSE */,
+				B0A9E3401F441C8500460B56 /* Logger.swift */,
+				B0A9E3411F441C8500460B56 /* Metadata.swift */,
+				B0A9E3421F441C8500460B56 /* NominalType.swift */,
+				B0A9E3431F441C8500460B56 /* NSDecimalNumberTransform.swift */,
+				B0A9E3441F441C8500460B56 /* OtherExtension.swift */,
+				B0A9E3451F441C8500460B56 /* PointerType.swift */,
+				B0A9E3461F441C8500460B56 /* Properties.swift */,
+				B0A9E3471F441C8500460B56 /* Protocol.swift */,
+				B0A9E3481F441C8500460B56 /* ReflectionHelper.swift */,
+				B0A9E3491F441C8500460B56 /* Serializer.swift */,
+				B0A9E34A1F441C8500460B56 /* Serializer+Legacy.swift */,
+				B0A9E34B1F441C8500460B56 /* TransformOf.swift */,
+				B0A9E34C1F441C8500460B56 /* TransformType.swift */,
+				B0A9E34D1F441C8500460B56 /* URLTransform.swift */,
+			);
+			path = HandyJSON;
+			sourceTree = "<group>";
+		};
+		B01346A21F441B6C0050B225 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
 		B04663A51EE92FA90075BCB6 = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +216,8 @@
 		B04663B01EE92FA90075BCB6 /* iOS-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				B01346A21F441B6C0050B225 /* Class */,
+				B01346A01F441B690050B225 /* Libs */,
 				B04663B11EE92FA90075BCB6 /* AppDelegate.swift */,
 				B04663B31EE92FA90075BCB6 /* ViewController.swift */,
 				B018B8E51F3C0AF500DC8632 /* Person.swift */,
@@ -223,6 +327,7 @@
 				TargetAttributes = {
 					B04663AD1EE92FA90075BCB6 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = BQ9AXVWHT8;
 						ProvisioningStyle = Automatic;
 					};
 					B04663C11EE92FA90075BCB6 = {
@@ -262,6 +367,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0A9E35D1F441C8500460B56 /* LICENSE in Resources */,
 				B04663BC1EE92FA90075BCB6 /* LaunchScreen.storyboard in Resources */,
 				B04663B91EE92FA90075BCB6 /* Assets.xcassets in Resources */,
 				B04663B71EE92FA90075BCB6 /* Main.storyboard in Resources */,
@@ -337,8 +443,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0A9E3541F441C8500460B56 /* Deserializer.swift in Sources */,
+				B0A9E35C1F441C8500460B56 /* ISO8601DateTransform.swift in Sources */,
+				B0A9E3501F441C8500460B56 /* CustomDateFormatTransform.swift in Sources */,
+				B0A9E3511F441C8500460B56 /* DataTransform.swift in Sources */,
+				B0A9E3531F441C8500460B56 /* DateTransform.swift in Sources */,
+				B0A9E3681F441C8500460B56 /* Serializer+Legacy.swift in Sources */,
+				B0A9E3551F441C8500460B56 /* EnumTransform.swift in Sources */,
+				B0A9E3641F441C8500460B56 /* Properties.swift in Sources */,
 				B018B8E61F3C0AF500DC8632 /* Person.swift in Sources */,
+				B0A9E3631F441C8500460B56 /* PointerType.swift in Sources */,
+				B0A9E34F1F441C8500460B56 /* Configuration.swift in Sources */,
+				B0A9E3601F441C8500460B56 /* NominalType.swift in Sources */,
 				B04663B41EE92FA90075BCB6 /* ViewController.swift in Sources */,
+				B0A9E3521F441C8500460B56 /* DateFormatterTransform.swift in Sources */,
+				B0A9E3671F441C8500460B56 /* Serializer.swift in Sources */,
+				B0A9E3691F441C8500460B56 /* TransformOf.swift in Sources */,
+				B0A9E36B1F441C8500460B56 /* URLTransform.swift in Sources */,
+				B0A9E35F1F441C8500460B56 /* Metadata.swift in Sources */,
+				B0A9E3621F441C8500460B56 /* OtherExtension.swift in Sources */,
+				B0A9E35E1F441C8500460B56 /* Logger.swift in Sources */,
+				B0A9E36A1F441C8500460B56 /* TransformType.swift in Sources */,
+				B0A9E34E1F441C8500460B56 /* AnyExtensions.swift in Sources */,
+				B0A9E3651F441C8500460B56 /* Protocol.swift in Sources */,
+				B0A9E3561F441C8500460B56 /* HelpingMapper.swift in Sources */,
+				B0A9E3661F441C8500460B56 /* ReflectionHelper.swift in Sources */,
+				B0A9E3571F441C8500460B56 /* HexColorTransform.swift in Sources */,
+				B0A9E3611F441C8500460B56 /* NSDecimalNumberTransform.swift in Sources */,
 				B04663B21EE92FA90075BCB6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -492,6 +623,7 @@
 			baseConfigurationReference = AB6D0B07A16FE7859701E14A /* Pods-iOS-Swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BQ9AXVWHT8;
 				INFOPLIST_FILE = "iOS-Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "alpha.com.etiaolong.iOS-Swift";
@@ -505,6 +637,7 @@
 			baseConfigurationReference = 2267E76DCC5003D469874C90 /* Pods-iOS-Swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BQ9AXVWHT8;
 				INFOPLIST_FILE = "iOS-Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "alpha.com.etiaolong.iOS-Swift";

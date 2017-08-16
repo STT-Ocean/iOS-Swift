@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 //        arrayFunction()
         
-//        testForModel()
+        testForModel()
         
     }
     
@@ -23,8 +23,8 @@ class ViewController: UIViewController {
         let dict = ["age":10,
                     "name":"开心",
                     "time":"10983"] as [String : Any]
-        // 数据解析
-        
+        let person = Person.init(dict: dict)
+        ALog(message: person.name)
     }
     
     
