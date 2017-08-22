@@ -1,12 +1,32 @@
 PODS:
-  - HandyJSON (1.7.2)
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - Alamofire (4.5.0)
+  - SwiftyJSON (3.1.4)
 
 DEPENDENCIES:
-  - HandyJSON (~> 1.7.2)
+  - AFNetworking (~> 3.1.0)
+  - Alamofire (~> 4.5.0)
+  - SwiftyJSON (~> 3.1.4)
 
 SPEC CHECKSUMS:
-  HandyJSON: e7ad0483005826baba1d1c251cd98d0aa8bd8cce
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: e4fc4640737f4c197ae86f61e674d2650f57fa66
+PODFILE CHECKSUM: b8546edd5ed66e597f5db5bc475deb9c73c1ed31
 
 COCOAPODS: 1.2.1

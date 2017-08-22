@@ -16,6 +16,9 @@
 		B04663BC1EE92FA90075BCB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B04663BA1EE92FA90075BCB6 /* LaunchScreen.storyboard */; };
 		B04663C71EE92FA90075BCB6 /* iOS_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04663C61EE92FA90075BCB6 /* iOS_SwiftTests.swift */; };
 		B04663D21EE92FA90075BCB6 /* iOS_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04663D11EE92FA90075BCB6 /* iOS_SwiftUITests.swift */; };
+		B089938A1F441EE50078EDE3 /* NetWorkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08993891F441EE50078EDE3 /* NetWorkTools.swift */; };
+		B089938D1F4421400078EDE3 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B089938C1F4421400078EDE3 /* URL.swift */; };
+		B08993961F4440C40078EDE3 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08993951F4440C40078EDE3 /* ContentModel.swift */; };
 		B0A9E34E1F441C8500460B56 /* AnyExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A9E32F1F441C8500460B56 /* AnyExtensions.swift */; };
 		B0A9E34F1F441C8500460B56 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A9E3301F441C8500460B56 /* Configuration.swift */; };
 		B0A9E3501F441C8500460B56 /* CustomDateFormatTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A9E3311F441C8500460B56 /* CustomDateFormatTransform.swift */; };
@@ -78,6 +81,9 @@
 		B04663CD1EE92FA90075BCB6 /* iOS-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B04663D11EE92FA90075BCB6 /* iOS_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_SwiftUITests.swift; sourceTree = "<group>"; };
 		B04663D31EE92FA90075BCB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B08993891F441EE50078EDE3 /* NetWorkTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkTools.swift; sourceTree = "<group>"; };
+		B089938C1F4421400078EDE3 /* URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
+		B08993951F4440C40078EDE3 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
 		B0A9E32F1F441C8500460B56 /* AnyExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyExtensions.swift; sourceTree = "<group>"; };
 		B0A9E3301F441C8500460B56 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		B0A9E3311F441C8500460B56 /* CustomDateFormatTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDateFormatTransform.swift; sourceTree = "<group>"; };
@@ -191,6 +197,15 @@
 			path = Class;
 			sourceTree = "<group>";
 		};
+		B01F3C811F441E5400E4D311 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				B08993891F441EE50078EDE3 /* NetWorkTools.swift */,
+				B089938C1F4421400078EDE3 /* URL.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		B04663A51EE92FA90075BCB6 = {
 			isa = PBXGroup;
 			children = (
@@ -216,11 +231,14 @@
 		B04663B01EE92FA90075BCB6 /* iOS-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				B089938B1F4421300078EDE3 /* Manager */,
+				B01F3C811F441E5400E4D311 /* Tools */,
 				B01346A21F441B6C0050B225 /* Class */,
 				B01346A01F441B690050B225 /* Libs */,
 				B04663B11EE92FA90075BCB6 /* AppDelegate.swift */,
 				B04663B31EE92FA90075BCB6 /* ViewController.swift */,
 				B018B8E51F3C0AF500DC8632 /* Person.swift */,
+				B08993951F4440C40078EDE3 /* ContentModel.swift */,
 				B04663B51EE92FA90075BCB6 /* Main.storyboard */,
 				B04663B81EE92FA90075BCB6 /* Assets.xcassets */,
 				B04663BA1EE92FA90075BCB6 /* LaunchScreen.storyboard */,
@@ -245,6 +263,13 @@
 				B04663D31EE92FA90075BCB6 /* Info.plist */,
 			);
 			path = "iOS-SwiftUITests";
+			sourceTree = "<group>";
+		};
+		B089938B1F4421300078EDE3 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 		EA5F135E0260F569657B26EE /* Pods */ = {
@@ -448,6 +473,7 @@
 				B0A9E3501F441C8500460B56 /* CustomDateFormatTransform.swift in Sources */,
 				B0A9E3511F441C8500460B56 /* DataTransform.swift in Sources */,
 				B0A9E3531F441C8500460B56 /* DateTransform.swift in Sources */,
+				B089938D1F4421400078EDE3 /* URL.swift in Sources */,
 				B0A9E3681F441C8500460B56 /* Serializer+Legacy.swift in Sources */,
 				B0A9E3551F441C8500460B56 /* EnumTransform.swift in Sources */,
 				B0A9E3641F441C8500460B56 /* Properties.swift in Sources */,
@@ -459,6 +485,7 @@
 				B0A9E3521F441C8500460B56 /* DateFormatterTransform.swift in Sources */,
 				B0A9E3671F441C8500460B56 /* Serializer.swift in Sources */,
 				B0A9E3691F441C8500460B56 /* TransformOf.swift in Sources */,
+				B08993961F4440C40078EDE3 /* ContentModel.swift in Sources */,
 				B0A9E36B1F441C8500460B56 /* URLTransform.swift in Sources */,
 				B0A9E35F1F441C8500460B56 /* Metadata.swift in Sources */,
 				B0A9E3621F441C8500460B56 /* OtherExtension.swift in Sources */,
@@ -467,6 +494,7 @@
 				B0A9E34E1F441C8500460B56 /* AnyExtensions.swift in Sources */,
 				B0A9E3651F441C8500460B56 /* Protocol.swift in Sources */,
 				B0A9E3561F441C8500460B56 /* HelpingMapper.swift in Sources */,
+				B089938A1F441EE50078EDE3 /* NetWorkTools.swift in Sources */,
 				B0A9E3661F441C8500460B56 /* ReflectionHelper.swift in Sources */,
 				B0A9E3571F441C8500460B56 /* HexColorTransform.swift in Sources */,
 				B0A9E3611F441C8500460B56 /* NSDecimalNumberTransform.swift in Sources */,
